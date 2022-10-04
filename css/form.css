@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240, 224, 224);
+}
+
+form {
+    width: 50%;
+    height: 50%;
+    border: 5px solid rgb(27, 235, 200);
+    border-radius: 5px;
+    background-color: rgb(195, 240, 118);
+}
+
+h1,form {
+    margin: 0 auto;
+}

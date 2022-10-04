@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario-Teoria</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form action="#" method="get" enctype="text/plain">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="introduzca su nombre aqui">
+
+        <br>
+        <br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" placeholder="introduzca su apellido aqui">
+
+        <br>
+        <br>
+        <label for="edad">edad: </label>
+        <input type="number" name="edad" id="edad" min="18" max="100" value="18" required>
+
+        <br><br>
+        <label for="Correo">Correo electronico:</label>
+        <input type="email" name="" id="Correo" placeholder="correo@direccion.com" required>
+
+        <br>
+        <br>
+
+        Documento de identidad nacional:
+        <label for="t1">
+            Tipo 1<input type="radio" name="doc" value="tipo1" id="t1">
+        </label>
+
+        <label for="t2">
+            Tipo 2:<input type="radio" name="doc" value="tipo2" id="t2">
+        </label>
+
+        <label for="t3">
+            Tipo 3:<input type="radio" name="doc" value="tipo3" id="t3">
+        </label>
+
+        <br>
+        <br>
+
+        Sexo:
+        <label for="masc">
+            Masculino<input type="radio" name="sexo" value="masc" id="masc">
+        </label>
+
+        <label for="fem">
+            Femenino<input type="radio" name="sexo" value="fem" id="fem">
+        </label>
+
+        <label for="desc">Desconocido</label>
+        <input type="radio" name="sexo" id="desc">
+        <br>
+        <br>
+
+        Eliga el/los lenguajes de programacion que mas te guste:</br>
+        <label for="js">
+            JavaScript<input type="checkbox" name="lenguaje" id="js">
+        </label>
+
+        <label for="Java">
+            Java <input type="checkbox" name="lenguaje" id="Java">
+        </label>
+
+        <label for="c#">
+            C# <input type="checkbox" name="lenguaje" id="c#">
+        </label>
+
+        <label for="python">
+            Python <input type="checkbox" name="lenguaje" id="python">
+        </label>
+
+        <label for="c">
+            C <input type="checkbox" name="lenguaje" id="c">
+        </label>
+
+        <label for="c++">
+            C++<input type="checkbox" name="lenguaje" id="c++">
+        </label>
+        <br>
+        <br>
+        <label for="fecha">Ingrese fecha: </label>
+        <input type="date" name="date" id="fecha" min="2021-03-01" value="2021-10-10" required>
+        <br>
+        <br>
+
+        <label for="boton-envio">
+            <input type="submit" value="enviar" id="boton-envio">
+        </label>
+        <label for="btn-ventana">
+            <input type="button" value="Presione y vera" onclick="alert('¿Como andan?')" id="btn-ventana">
+        </label>
+        <br>
+        <br>
+        <input type="image" src="../img/boton-form-button.jpg" alt="imagen no cargada" width="50px" height="50px"
+            onclick="alert('usted ha presionado el boton con imagen')">
+        <br>
+        <label for="pass">
+            Ingrese su contraseña:<br>
+            <input type="password" name="contraseña" value="" id="pass">
+        </label>
+    </form>
+</body>
+
+</html>
+
+<!-- 
+Formulario con los siguientes datos:
+Nombre, apellido
+E-Mail
+Tipo de Documento
+Sexo (radio - Masc, Fem)
+Un boton de envio que diga "Transferir"
+Un boton con una imagen del tipo icono que al hacer clic muestre un cartel con una leyenda y Un aingreso para una Contraseña:
+ -->
+<!-- 
+hacer un formulario que tenga un checkbox de 5 opciones. Aplique la etiqueta LABEL.
+Escriba un select de Estudios realizados (Inicial, primaria, secundaria, universitario) 
+boton submit y reset
+aplicar los estilos que crea conveniente
+ -->
+
+<!-- 
+    Ingrese nombre:<br>
+			<input type="search" name="nbre_new"><br>
+
+			Ingrese Nro.Celular:<br>
+			<input type="tel" name="celular_emp"><br>
+
+		    Ingrese Pagina Persona:<br>
+			<input type="url" name="web_emp"><br>
+			
+			Ingrese correo electrónico:<br>
+			<input type="email" name="mail_emp"><br>			
+			<br>
+
+			Ingrese Su Edad:<br>
+			<input type="number" name="edad_emp" min="18" max="75" value="30"><br><br>
+			
+			Ingrese Premio que pretende:(entre $1000 y $10.000)<br>
+			<input type="range" name="premio" min="1000" max="10000" step="1000">
+			<br>
+
+			Ingrese Fecha de Ingreso Laboral:<br>
+			formato fecha aaaa-mm-dd 
+			<input type="date" name="ing_emp" min="2021-03-01" value="2021-10-10" > 
+  -->
+<!-- 
+    Un Formulario con una calendario para la fecha, un campo numérico controlado por los límites, un campo email, todos los elementos del formulario deben ser obligatorios.
+
+   -->
